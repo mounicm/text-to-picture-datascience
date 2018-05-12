@@ -135,6 +135,7 @@ class extract(object):
         return self.sword                                
                 
 if __name__=='__main__':    
+    # Story explanation goes below
     s="""Once when a lion, the king of the jungle, was asleep, a little mouse began running up and down on him. This soon awakened the lion, who placed his huge paw on the mouse, and opened his big jaws to swallow him.
  """
     reg='((NN(\w)* )+)|((JJ )+(NN(\w)* )+)'
